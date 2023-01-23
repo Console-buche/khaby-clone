@@ -3,10 +3,13 @@ import {
   useAspect,
   useScroll,
   useVideoTexture,
+  Html,
+  Text,
 } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { Suspense, useRef } from "react";
 import { DoubleSide, Mesh, Texture } from "three";
+import { OpenerText } from "./opener/openerText";
 
 type VideoPlane = {
   texturePath: string;
@@ -37,6 +40,7 @@ export const VideoPlane = ({ texturePath }: VideoPlane) => {
         material-side={DoubleSide}
         material-map={videoTexture}
       />
+      <OpenerText py={0.5} />
     </Suspense>
   );
 };
