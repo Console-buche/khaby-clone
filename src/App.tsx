@@ -1,5 +1,7 @@
+import { Scene } from "./components/Scene";
+
 function App() {
-  return <div>hello khady clone</div>;
+  return <Scene />;
 }
 
 export default App;
