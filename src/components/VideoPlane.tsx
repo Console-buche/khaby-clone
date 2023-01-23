@@ -3,12 +3,10 @@ import {
   useAspect,
   useScroll,
   useVideoTexture,
-  Html,
-  Text,
 } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { Suspense, useRef } from "react";
-import { DoubleSide, Mesh, Texture } from "three";
+import { DoubleSide, Mesh } from "three";
 import { OpenerText } from "./opener/openerText";
 
 type VideoPlane = {
