@@ -12,6 +12,7 @@ export const Scene = () => {
         <Opener />
         <Screen2 />
       </ScrollControls>
+      <ambientLight />
     </Canvas>
   );
 };
