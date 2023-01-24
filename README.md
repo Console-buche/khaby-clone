@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/26569119/214188690-d16da44a-3b26-49cf-
 - Ce repo est public, n'hésite pas à PR, cloner...
 - Pour me retrouver sur Twitch : https://www.twitch.tv/console_buche
 - Twitter : https://twitter.com/Console_buche
-- Youtube
+- Youtube : https://www.youtube.com/channel/UCxD5q70zyfmBBp_WcqVUuhA
 
 ## LA STACK
 
