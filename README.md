@@ -1,4 +1,4 @@
-# Khady Lame Website - projet Twitch
+# Khaby Lame Website - projet Twitch
 
 Projet en cours de dev live sur Twitch (janvier 2023) : on recode un site trouvé sur la page des Awwwards, un one-page en scrolling vertical plein d'effets discrets mais efficaces. Enjoy !
 
