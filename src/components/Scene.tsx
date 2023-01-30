@@ -1,8 +1,9 @@
-import { ScrollControls } from '@react-three/drei';
+import { Environment, ScrollControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Color } from 'three';
 import { Opener } from './opener';
 import { Screen2 } from './screen2';
+import { Screen3 } from './screen3';
 
 export const Scene = () => {
   return (
@@ -11,8 +12,10 @@ export const Scene = () => {
         <color attach="background" args={[new Color('black')]} />
         <Opener />
         <Screen2 />
+        <Screen3 />
       </ScrollControls>
       <ambientLight />
+      <directionalLight />
     </Canvas>
   );
 };
