@@ -1,9 +1,9 @@
 import { Box, Environment, OrbitControls, Plane, ScrollControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Color } from 'three';
-import { Opener } from './opener';
-import { Screen2 } from './screen2';
-import { Screen3 } from './screen3';
+import { Opener } from '@/components/opener';
+import { Screen2 } from '@/components/screen2';
+import { Screen3 } from '@/components/screen3';
 
 export const Scene = () => {
   return (
