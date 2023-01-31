@@ -6,9 +6,7 @@ Command: npx gltfjsx@6.1.4 pillar-ok.gltf -t -K -T
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { useRef } from 'react';
-import * as THREE from 'three';
 import { Mesh } from 'three';
-import { GLTF } from 'three-stdlib';
 
 export function PillarModel(props: JSX.IntrinsicElements['group']) {
   const { nodes, materials } = useGLTF('pillar-ok-transformed.glb');
