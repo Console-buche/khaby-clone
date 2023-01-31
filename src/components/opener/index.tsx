@@ -1,5 +1,5 @@
 import { Scroll } from "@react-three/drei";
-import { VideoPlane } from "../VideoPlane";
+import { VideoPlane } from "@/components/VideoPlane";
 
 export const Opener = () => {
   return (
